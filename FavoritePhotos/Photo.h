@@ -1,15 +1,15 @@
 //
-//  ViewController.h
+//  Photo.h
 //  FavoritePhotos
 //
 //  Created by Gabriel Borri de Azevedo on 1/22/15.
 //  Copyright (c) 2015 Gabriel Enterprises. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
+@interface Photo : NSObject
 
+@property NSString *standardPhoto;
 
 @end
-

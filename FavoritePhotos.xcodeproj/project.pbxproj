@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		23F216541A71F4C20038CF5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F216531A71F4C20038CF5E /* main.m */; };
 		23F216571A71F4C20038CF5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F216561A71F4C20038CF5E /* AppDelegate.m */; };
-		23F2165A1A71F4C20038CF5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F216591A71F4C20038CF5E /* ViewController.m */; };
+		23F2165A1A71F4C20038CF5E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F216591A71F4C20038CF5E /* RootViewController.m */; };
 		23F2165D1A71F4C20038CF5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F2165B1A71F4C20038CF5E /* Main.storyboard */; };
 		23F2165F1A71F4C20038CF5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F2165E1A71F4C20038CF5E /* Images.xcassets */; };
 		23F216621A71F4C20038CF5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23F216601A71F4C20038CF5E /* LaunchScreen.xib */; };
 		23F2166E1A71F4C20038CF5E /* FavoritePhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F2166D1A71F4C20038CF5E /* FavoritePhotosTests.m */; };
+		23F216791A720A1A0038CF5E /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F216781A720A1A0038CF5E /* Photo.m */; };
+		23F2167C1A7218680038CF5E /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F2167B1A7218680038CF5E /* CustomCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		23F216531A71F4C20038CF5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23F216551A71F4C20038CF5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23F216561A71F4C20038CF5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		23F216581A71F4C20038CF5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		23F216591A71F4C20038CF5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23F216581A71F4C20038CF5E /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		23F216591A71F4C20038CF5E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		23F2165C1A71F4C20038CF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23F2165E1A71F4C20038CF5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		23F216611A71F4C20038CF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		23F216671A71F4C20038CF5E /* FavoritePhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavoritePhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F2166C1A71F4C20038CF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23F2166D1A71F4C20038CF5E /* FavoritePhotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoritePhotosTests.m; sourceTree = "<group>"; };
+		23F216771A720A1A0038CF5E /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		23F216781A720A1A0038CF5E /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		23F2167A1A7218680038CF5E /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		23F2167B1A7218680038CF5E /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,12 @@
 			children = (
 				23F216551A71F4C20038CF5E /* AppDelegate.h */,
 				23F216561A71F4C20038CF5E /* AppDelegate.m */,
-				23F216581A71F4C20038CF5E /* ViewController.h */,
-				23F216591A71F4C20038CF5E /* ViewController.m */,
+				23F216581A71F4C20038CF5E /* RootViewController.h */,
+				23F216591A71F4C20038CF5E /* RootViewController.m */,
+				23F2167A1A7218680038CF5E /* CustomCollectionViewCell.h */,
+				23F2167B1A7218680038CF5E /* CustomCollectionViewCell.m */,
+				23F216771A720A1A0038CF5E /* Photo.h */,
+				23F216781A720A1A0038CF5E /* Photo.m */,
 				23F2165B1A71F4C20038CF5E /* Main.storyboard */,
 				23F2165E1A71F4C20038CF5E /* Images.xcassets */,
 				23F216601A71F4C20038CF5E /* LaunchScreen.xib */,
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23F2165A1A71F4C20038CF5E /* ViewController.m in Sources */,
+				23F216791A720A1A0038CF5E /* Photo.m in Sources */,
+				23F2165A1A71F4C20038CF5E /* RootViewController.m in Sources */,
 				23F216571A71F4C20038CF5E /* AppDelegate.m in Sources */,
 				23F216541A71F4C20038CF5E /* main.m in Sources */,
+				23F2167C1A7218680038CF5E /* CustomCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
