@@ -10,6 +10,7 @@
 
 @interface CustomCollectionViewCell : UICollectionViewCell
 
-@property UIImage *image;
+@property UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIImageView *heartIcon;
 
 @end

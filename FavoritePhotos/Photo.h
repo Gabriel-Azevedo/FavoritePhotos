@@ -6,10 +6,11 @@
 //  Copyright (c) 2015 Gabriel Enterprises. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface Photo : NSObject
+@interface Photo : UIImageView
 
 @property NSString *standardPhoto;
+@property BOOL isFavorite;
 
 @end

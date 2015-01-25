@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2389D2241A75657100FE3838 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2389D2231A75657100FE3838 /* DataManager.m */; };
+		2389D2261A7596C900FE3838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2389D2251A7596C900FE3838 /* Main.storyboard */; };
+		2389D2281A759B6000FE3838 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2389D2271A759B6000FE3838 /* MessageUI.framework */; };
+		23F1E7601A733A5E009D6CB3 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F1E75F1A733A5E009D6CB3 /* FavoritesViewController.m */; };
 		23F216541A71F4C20038CF5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F216531A71F4C20038CF5E /* main.m */; };
 		23F216571A71F4C20038CF5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F216561A71F4C20038CF5E /* AppDelegate.m */; };
 		23F2165A1A71F4C20038CF5E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F216591A71F4C20038CF5E /* RootViewController.m */; };
-		23F2165D1A71F4C20038CF5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F2165B1A71F4C20038CF5E /* Main.storyboard */; };
 		23F2165F1A71F4C20038CF5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F2165E1A71F4C20038CF5E /* Images.xcassets */; };
 		23F216621A71F4C20038CF5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23F216601A71F4C20038CF5E /* LaunchScreen.xib */; };
 		23F2166E1A71F4C20038CF5E /* FavoritePhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F2166D1A71F4C20038CF5E /* FavoritePhotosTests.m */; };
@@ -29,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2389D2221A75657100FE3838 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		2389D2231A75657100FE3838 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		2389D2251A7596C900FE3838 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		2389D2271A759B6000FE3838 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		23F1E75E1A733A5E009D6CB3 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		23F1E75F1A733A5E009D6CB3 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
 		23F2164E1A71F4C20038CF5E /* FavoritePhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoritePhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F216521A71F4C20038CF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23F216531A71F4C20038CF5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,7 +45,6 @@
 		23F216561A71F4C20038CF5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		23F216581A71F4C20038CF5E /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		23F216591A71F4C20038CF5E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		23F2165C1A71F4C20038CF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23F2165E1A71F4C20038CF5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		23F216611A71F4C20038CF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		23F216671A71F4C20038CF5E /* FavoritePhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavoritePhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2389D2281A759B6000FE3838 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,9 +75,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2389D2291A759BE300FE3838 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				23F216581A71F4C20038CF5E /* RootViewController.h */,
+				23F216591A71F4C20038CF5E /* RootViewController.m */,
+				23F1E75E1A733A5E009D6CB3 /* FavoritesViewController.h */,
+				23F1E75F1A733A5E009D6CB3 /* FavoritesViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2389D22A1A759BFF00FE3838 /* Custom Objects */ = {
+			isa = PBXGroup;
+			children = (
+				23F216771A720A1A0038CF5E /* Photo.h */,
+				23F216781A720A1A0038CF5E /* Photo.m */,
+				23F2167A1A7218680038CF5E /* CustomCollectionViewCell.h */,
+				23F2167B1A7218680038CF5E /* CustomCollectionViewCell.m */,
+			);
+			name = "Custom Objects";
+			sourceTree = "<group>";
+		};
+		2389D22B1A759C0900FE3838 /* Custom Class */ = {
+			isa = PBXGroup;
+			children = (
+				2389D2221A75657100FE3838 /* DataManager.h */,
+				2389D2231A75657100FE3838 /* DataManager.m */,
+			);
+			name = "Custom Class";
+			sourceTree = "<group>";
+		};
 		23F216451A71F4C20038CF5E = {
 			isa = PBXGroup;
 			children = (
+				2389D2271A759B6000FE3838 /* MessageUI.framework */,
 				23F216501A71F4C20038CF5E /* FavoritePhotos */,
 				23F2166A1A71F4C20038CF5E /* FavoritePhotosTests */,
 				23F2164F1A71F4C20038CF5E /* Products */,
@@ -87,15 +128,10 @@
 		23F216501A71F4C20038CF5E /* FavoritePhotos */ = {
 			isa = PBXGroup;
 			children = (
-				23F216551A71F4C20038CF5E /* AppDelegate.h */,
-				23F216561A71F4C20038CF5E /* AppDelegate.m */,
-				23F216581A71F4C20038CF5E /* RootViewController.h */,
-				23F216591A71F4C20038CF5E /* RootViewController.m */,
-				23F2167A1A7218680038CF5E /* CustomCollectionViewCell.h */,
-				23F2167B1A7218680038CF5E /* CustomCollectionViewCell.m */,
-				23F216771A720A1A0038CF5E /* Photo.h */,
-				23F216781A720A1A0038CF5E /* Photo.m */,
-				23F2165B1A71F4C20038CF5E /* Main.storyboard */,
+				2389D2291A759BE300FE3838 /* View Controllers */,
+				2389D22A1A759BFF00FE3838 /* Custom Objects */,
+				2389D22B1A759C0900FE3838 /* Custom Class */,
+				2389D2251A7596C900FE3838 /* Main.storyboard */,
 				23F2165E1A71F4C20038CF5E /* Images.xcassets */,
 				23F216601A71F4C20038CF5E /* LaunchScreen.xib */,
 				23F216511A71F4C20038CF5E /* Supporting Files */,
@@ -106,6 +142,8 @@
 		23F216511A71F4C20038CF5E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				23F216551A71F4C20038CF5E /* AppDelegate.h */,
+				23F216561A71F4C20038CF5E /* AppDelegate.m */,
 				23F216521A71F4C20038CF5E /* Info.plist */,
 				23F216531A71F4C20038CF5E /* main.m */,
 			);
@@ -209,7 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23F2165D1A71F4C20038CF5E /* Main.storyboard in Resources */,
+				2389D2261A7596C900FE3838 /* Main.storyboard in Resources */,
 				23F216621A71F4C20038CF5E /* LaunchScreen.xib in Resources */,
 				23F2165F1A71F4C20038CF5E /* Images.xcassets in Resources */,
 			);
@@ -231,6 +269,8 @@
 			files = (
 				23F216791A720A1A0038CF5E /* Photo.m in Sources */,
 				23F2165A1A71F4C20038CF5E /* RootViewController.m in Sources */,
+				2389D2241A75657100FE3838 /* DataManager.m in Sources */,
+				23F1E7601A733A5E009D6CB3 /* FavoritesViewController.m in Sources */,
 				23F216571A71F4C20038CF5E /* AppDelegate.m in Sources */,
 				23F216541A71F4C20038CF5E /* main.m in Sources */,
 				23F2167C1A7218680038CF5E /* CustomCollectionViewCell.m in Sources */,
@@ -256,14 +296,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		23F2165B1A71F4C20038CF5E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				23F2165C1A71F4C20038CF5E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		23F216601A71F4C20038CF5E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,6 +456,7 @@
 				23F216731A71F4C20038CF5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23F216741A71F4C20038CF5E /* Build configuration list for PBXNativeTarget "FavoritePhotosTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +465,7 @@
 				23F216761A71F4C20038CF5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
